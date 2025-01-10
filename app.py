@@ -23,8 +23,10 @@ st.markdown("""
       --df-messenger-chat-background: #4CAF50;
       --df-messenger-message-user-background: #097138;
       --df-messenger-message-bot-background: #C8E6C9;
+      /* New line to center the chat box */
+      left: 50%;
+      transform: translateX(-50%);
       bottom: 16px;
-      right: 16px;
     }
   </style>
 </div>
