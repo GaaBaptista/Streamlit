@@ -13,7 +13,7 @@ html_code = """
     agent-id="f1c06274-0f5c-4254-a839-1d5161c3202a"
     language-code="pt-br"
     max-query-length="-1">
-    <df-messenger-chat chat-title="BQ_Query_Generator"></df-messenger-chat>
+    <df-messenger-chat chat-title="Gerador de Query - GCP"></df-messenger-chat>
   </df-messenger>
 
   <style>
@@ -22,9 +22,10 @@ html_code = """
       position: fixed;
       --df-messenger-font-color: #000;
       --df-messenger-font-family: Roboto Mono;
-      --df-messenger-chat-background: #C8E6C9;
-      --df-messenger-message-user-background: #097138;
-      --df-messenger-message-bot-background: #EEF7EE;
+      --df-messenger-chat-background: #2A56C6;
+      --df-messenger-message-user-background: #4285F4;
+      --df-messenger-message-bot-background: #FFFFFF;
+      --df-messenger-message-user-font-color: #FFFFFF;
       bottom: 0;
       right: 0;
       top: 0;
