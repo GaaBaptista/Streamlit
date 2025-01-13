@@ -36,6 +36,3 @@ html_code = """
 
 # Usando o método `st.components.v1` para renderizar o HTML
 components.html(html_code, height=600)
-
-# Título do aplicativo Streamlit
-st.title("Meu aplicativo Streamlit com Chat do Dialogflow")
