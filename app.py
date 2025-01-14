@@ -26,14 +26,12 @@ html_code = """
       --df-messenger-message-user-background: #4285F4;
       --df-messenger-message-bot-background: #FFFFFF;
       --df-messenger-message-user-font-color: #FFFFFF;
-      bottom: 0;
-      right: 0;
       top: 0;
-      width: 350px;
-    }
+      left: 0;  right: 0;  bottom: 0;
+      width: 100vw;  height: 100vh; }
   </style>
 </div>
 """
 
 # Usando o método `st.components.v1` para renderizar o HTML
-components.html(html_code, height=600)
+components.html(html_code)
